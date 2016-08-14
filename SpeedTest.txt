@@ -1,0 +1,22 @@
+13 aug.2016 Roberto Della Pasqua
+
+Http Json 50KB TMemoryStream file test
+Intel Core i7 2.6Ghz, Windows 10 Pro
+
+Compression ratio 6x
+
+Snappy 64bit WIN64
+Snappy compress in 237.33ms, ratio=85%, 1.6 GB/s
+Snappy uncompress in 92.43ms, 4.3 GB/s
+
+Snappy 32bit WIN32
+Snappy compress in 269.96ms, ratio=85%, 1.4 GB/s
+Snappy uncompress in 135.88ms, 2.9 GB/s
+
+Zlib fastest mode 64bit WIN64
+compress in 1.77s, ratio=89%, 231.7 MB/s
+uncompress in 961.10ms, 427.6 MB/s
+
+Zlib fastest mode 32bit WIN32
+compress in 2.12s, ratio=89%, 193.6 MB/s
+uncompress in 1.43s, 286.1 MB/s 
